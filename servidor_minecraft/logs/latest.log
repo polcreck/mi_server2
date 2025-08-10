@@ -1,103 +1,225 @@
-[03:21:24] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[03:21:24] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[03:21:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:21:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[03:21:25] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[03:28:45] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[03:28:45] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[03:28:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:28:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[03:28:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - Chunky (1.4.40), Waypoints (4.5.8)
-[03:21:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:21:32] [ServerMain/INFO]: Loaded 1407 recipes
-[03:21:32] [ServerMain/INFO]: Loaded 1520 advancements
-[03:21:32] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[03:21:32] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 448.1ms
-[03:21:32] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[03:21:32] [Server thread/INFO]: Loading properties
-[03:21:32] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[03:21:32] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:21:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:21:33] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:21:33] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[03:21:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[03:21:35] [Server thread/INFO]: Default game type: SURVIVAL
-[03:21:35] [Server thread/INFO]: Generating keypair
-[03:21:35] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:21:35] [Server thread/INFO]: Using epoll channel type
-[03:21:35] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:21:35] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[03:21:35] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loading 3 libraries... please wait
-[03:21:35] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.pom
-[03:21:35] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom
-[03:21:36] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-reflect/2.2.0/kotlin-reflect-2.2.0.pom
-[03:21:36] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.pom
-[03:21:36] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.10.2/kotlinx-coroutines-bom-1.10.2.pom
-[03:21:36] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom
-[03:21:36] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.pom
-[03:21:36] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.jar
-[03:21:36] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[03:21:36] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-reflect/2.2.0/kotlin-reflect-2.2.0.jar
-[03:21:36] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.jar
-[03:21:36] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.jar
-[03:21:36] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[03:21:36] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-reflect/2.2.0/kotlin-reflect-2.2.0.jar
-[03:21:36] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.jar
-[03:21:37] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
-[03:21:37] [Server thread/INFO]: [Waypoints] Loading server plugin Waypoints v4.5.8
-[03:21:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:21:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:21:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:21:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:21:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:21:38] [Server thread/INFO]: Preparing level "world"
-[03:21:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[03:21:39] [Server thread/INFO]: Preparing spawn area: 2%
-[03:21:39] [Server thread/INFO]: Preparing spawn area: 89%
-[03:21:39] [Server thread/INFO]: Time elapsed: 1165 ms
-[03:21:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[03:21:40] [Server thread/INFO]: Time elapsed: 333 ms
-[03:21:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:21:40] [Server thread/INFO]: Preparing spawn area: 0%
-[03:21:40] [Server thread/INFO]: Time elapsed: 315 ms
-[03:21:40] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
-[03:21:40] [Server thread/INFO]: [Waypoints] Enabling Waypoints v4.5.8
-[03:21:41] [Server thread/INFO]: [spark] Starting background profiler...
-[03:21:42] [Server thread/INFO]: Done preparing level "world" (4.028s)
-[03:21:42] [Server thread/INFO]: Running delayed init tasks
-[03:21:42] [Server thread/INFO]: Done (18.068s)! For help, type "help"
-[03:21:42] [Craft Scheduler Thread - 3 - Waypoints/INFO]: [Waypoints] The latest version of Waypoints is used
-[03:22:03] [Server thread/INFO]: Made Tsuyoi a server operator
-[03:22:31] [Server thread/INFO]: Stopping the server
-[03:22:31] [Server thread/INFO]: Stopping server
-[03:22:31] [Server thread/INFO]: [Waypoints] Disabling Waypoints v4.5.8
-[03:22:31] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
-[03:22:31] [Server thread/INFO]: Saving players
-[03:22:31] [Server thread/INFO]: Saving worlds
-[03:22:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.23s
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[03:22:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.12s
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[03:22:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.07s
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[03:22:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[03:22:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:22:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:22:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:22:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:22:31] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[03:22:31] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[03:22:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[03:22:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[03:28:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:28:50] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[03:28:50] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[03:28:51] [ServerMain/INFO]: No existing world data, creating new world
+[03:28:52] [ServerMain/INFO]: Loaded 1407 recipes
+[03:28:52] [ServerMain/INFO]: Loaded 1520 advancements
+[03:28:52] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[03:28:52] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 461.2ms
+[03:28:52] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[03:28:52] [Server thread/INFO]: Loading properties
+[03:28:52] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[03:28:52] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:28:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:28:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:28:53] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[03:28:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[03:28:54] [Server thread/INFO]: Default game type: SURVIVAL
+[03:28:54] [Server thread/INFO]: Generating keypair
+[03:28:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:28:54] [Server thread/INFO]: Using epoll channel type
+[03:28:54] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:28:54] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[03:28:55] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loading 3 libraries... please wait
+[03:28:55] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.jar
+[03:28:55] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[03:28:55] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-reflect/2.2.0/kotlin-reflect-2.2.0.jar
+[03:28:55] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.jar
+[03:28:55] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[03:28:55] [Server thread/INFO]: [Waypoints] Loading server plugin Waypoints v4.5.8
+[03:28:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:28:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:28:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:28:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:28:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:28:56] [Server thread/INFO]: Preparing level "Gabito"
+[03:29:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:29:06] [Server thread/INFO]: Preparing spawn area: 2%
+[03:29:07] [Server thread/INFO]: Preparing spawn area: 2%
+[03:29:07] [Server thread/INFO]: Preparing spawn area: 2%
+[03:29:08] [Server thread/INFO]: Preparing spawn area: 2%
+[03:29:08] [Server thread/INFO]: Preparing spawn area: 8%
+[03:29:09] [Server thread/INFO]: Preparing spawn area: 18%
+[03:29:09] [Server thread/INFO]: Preparing spawn area: 18%
+[03:29:10] [Server thread/INFO]: Preparing spawn area: 18%
+[03:29:10] [Server thread/INFO]: Preparing spawn area: 48%
+[03:29:11] [Server thread/INFO]: Preparing spawn area: 51%
+[03:29:11] [Server thread/INFO]: Preparing spawn area: 51%
+[03:29:12] [Server thread/INFO]: Preparing spawn area: 51%
+[03:29:12] [Server thread/INFO]: Time elapsed: 5999 ms
+[03:29:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:29:12] [Server thread/INFO]: Preparing spawn area: 2%
+[03:29:13] [Server thread/INFO]: Preparing spawn area: 14%
+[03:29:13] [Server thread/INFO]: Preparing spawn area: 18%
+[03:29:14] [Server thread/INFO]: Preparing spawn area: 51%
+[03:29:14] [Server thread/INFO]: Time elapsed: 1756 ms
+[03:29:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:29:14] [Server thread/INFO]: Preparing spawn area: 2%
+[03:29:14] [Server thread/INFO]: Time elapsed: 480 ms
+[03:29:14] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[03:29:14] [Server thread/INFO]: [Waypoints] Enabling Waypoints v4.5.8
+[03:29:15] [Server thread/INFO]: [spark] Starting background profiler...
+[03:29:15] [Server thread/INFO]: Done preparing level "Gabito" (19.176s)
+[03:29:15] [Server thread/INFO]: Running delayed init tasks
+[03:29:15] [Server thread/INFO]: Done (31.792s)! For help, type "help"
+[03:29:16] [Craft Scheduler Thread - 3 - Waypoints/INFO]: [Waypoints] The latest version of Waypoints is used
+[03:30:38] [User Authenticator #0/INFO]: UUID of player Tsuyoi is be812d96-d762-3bbd-aedb-2a8c943d8d21
+[03:30:40] [Server thread/INFO]: Tsuyoi joined the game
+[03:30:40] [Server thread/INFO]: Tsuyoi[/10.243.0.128:50252] logged in with entity id 58 at ([Gabito]-9.5, 93.0, 10.5)
+[03:31:40] [Server thread/INFO]: Tsuyoi issued server command: /chunky shape circle 50000 50000
+[03:32:12] [Server thread/INFO]: Tsuyoi issued server command: /chunky shape
+[03:32:21] [Server thread/INFO]: Tsuyoi issued server command: /chunky
+[03:32:30] [Server thread/INFO]: Tsuyoi issued server command: /chunky spawn
+[03:32:47] [Server thread/INFO]: Tsuyoi issued server command: /chunky radius 50000 50000
+[03:33:02] [Server thread/INFO]: Tsuyoi issued server command: /chunky start Gabito
+[03:33:02] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 365 chunks (0.00%), ETA: 4:13:21, Rate: 2570.4 cps, Current: 5, 28
+[03:33:14] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 373 chunks (0.00%), ETA: 344:44:24, Rate: 31.5 cps, Current: 5, 29
+[03:33:18] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 381 chunks (0.00%), ETA: 446:55:30, Rate: 24.3 cps, Current: 7, 28
+[03:33:20] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 389 chunks (0.00%), ETA: 492:08:37, Rate: 22.1 cps, Current: 7, 29
+[03:33:21] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 392 chunks (0.00%), ETA: 517:20:23, Rate: 21.0 cps, Current: 10, 26
+[03:33:25] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 394 chunks (0.00%), ETA: 638:32:37, Rate: 17.0 cps, Current: 8, 29
+[03:33:27] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 398 chunks (0.00%), ETA: 673:10:10, Rate: 16.1 cps, Current: 6, 30
+[03:33:30] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 401 chunks (0.00%), ETA: 746:47:29, Rate: 14.5 cps, Current: 9, 29
+[03:33:31] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 485 chunks (0.00%), ETA: 648:10:33, Rate: 16.7 cps, Current: 19, 18
+[03:33:32] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 487 chunks (0.00%), ETA: 1733:26:09, Rate: 6.3 cps, Current: 18, 19
+[03:33:35] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 495 chunks (0.00%), ETA: 1903:25:34, Rate: 5.7 cps, Current: 7, 31
+[03:33:37] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 501 chunks (0.00%), ETA: 1970:23:04, Rate: 5.5 cps, Current: 12, 29
+[03:33:41] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 506 chunks (0.00%), ETA: 2170:33:44, Rate: 5.0 cps, Current: 9, 30
+[03:33:42] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 510 chunks (0.00%), ETA: 2191:53:01, Rate: 5.0 cps, Current: 22, 17
+[03:33:44] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 513 chunks (0.00%), ETA: 2302:54:02, Rate: 4.7 cps, Current: 10, 30
+[03:33:45] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 516 chunks (0.00%), ETA: 2166:48:51, Rate: 5.0 cps, Current: 15, 24
+[03:33:47] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 533 chunks (0.00%), ETA: 2095:36:21, Rate: 5.2 cps, Current: 22, 18
+[03:33:49] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 537 chunks (0.00%), ETA: 2097:39:59, Rate: 5.2 cps, Current: 21, 19
+[03:33:51] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 543 chunks (0.00%), ETA: 1866:44:45, Rate: 5.8 cps, Current: 10, 31
+[03:33:55] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 553 chunks (0.00%), ETA: 1986:46:17, Rate: 5.5 cps, Current: 21, 21
+[03:33:56] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 554 chunks (0.00%), ETA: 2052:39:10, Rate: 5.3 cps, Current: 15, 26
+[03:33:58] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 555 chunks (0.00%), ETA: 1975:00:36, Rate: 5.5 cps, Current: 11, 31
+[03:33:59] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 563 chunks (0.00%), ETA: 1946:35:48, Rate: 5.6 cps, Current: 18, 24
+[03:34:01] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 565 chunks (0.00%), ETA: 3956:53:22, Rate: 2.7 cps, Current: 19, 23
+[03:34:02] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 567 chunks (0.00%), ETA: 3996:48:11, Rate: 2.7 cps, Current: 21, 22
+[03:34:04] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 574 chunks (0.00%), ETA: 3871:45:36, Rate: 2.8 cps, Current: 16, 27
+[03:34:05] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 581 chunks (0.00%), ETA: 3686:44:37, Rate: 2.9 cps, Current: 18, 26
+[03:34:06] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 584 chunks (0.00%), ETA: 3712:35:11, Rate: 2.9 cps, Current: 16, 28
+[03:34:07] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 585 chunks (0.00%), ETA: 3817:48:01, Rate: 2.8 cps, Current: 14, 31
+[03:34:10] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 589 chunks (0.00%), ETA: 3781:58:26, Rate: 2.9 cps, Current: 20, 25
+[03:34:11] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 593 chunks (0.00%), ETA: 3805:13:56, Rate: 2.9 cps, Current: 17, 28
+[03:34:12] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 599 chunks (0.00%), ETA: 3558:29:25, Rate: 3.1 cps, Current: 23, 23
+[03:34:16] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 600 chunks (0.00%), ETA: 4511:16:25, Rate: 2.4 cps, Current: 19, 27
+[03:34:17] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 605 chunks (0.00%), ETA: 4553:38:44, Rate: 2.4 cps, Current: 19, 28
+[03:34:20] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 609 chunks (0.00%), ETA: 4707:33:25, Rate: 2.3 cps, Current: 21, 26
+[03:34:21] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 611 chunks (0.00%), ETA: 4796:43:51, Rate: 2.3 cps, Current: 17, 30
+[03:34:23] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 618 chunks (0.00%), ETA: 4533:21:07, Rate: 2.4 cps, Current: 17, 31
+[03:34:26] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 622 chunks (0.00%), ETA: 4656:59:33, Rate: 2.3 cps, Current: 19, 30
+[03:34:27] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 625 chunks (0.00%), ETA: 4503:01:52, Rate: 2.4 cps, Current: 22, 27
+[03:34:28] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 629 chunks (0.00%), ETA: 4772:30:59, Rate: 2.3 cps, Current: 24, 25
+[03:34:30] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 630 chunks (0.00%), ETA: 4762:06:24, Rate: 2.3 cps, Current: 25, 25
+[03:34:32] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 631 chunks (0.00%), ETA: 4890:28:28, Rate: 2.2 cps, Current: 19, 31
+[03:34:33] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 638 chunks (0.00%), ETA: 4802:18:21, Rate: 2.3 cps, Current: 22, 29
+[03:34:34] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 643 chunks (0.00%), ETA: 4616:39:59, Rate: 2.4 cps, Current: 22, 30
+[03:34:35] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 644 chunks (0.00%), ETA: 5168:05:59, Rate: 2.1 cps, Current: 25, 26
+[03:34:36] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 649 chunks (0.00%), ETA: 4878:06:56, Rate: 2.2 cps, Current: 23, 29
+[03:34:40] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 655 chunks (0.00%), ETA: 4810:35:00, Rate: 2.3 cps, Current: 27, 25
+[03:34:41] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 659 chunks (0.00%), ETA: 4778:49:51, Rate: 2.3 cps, Current: 30, 22
+[03:34:42] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1001 chunks (0.00%), ETA: 803:43:35, Rate: 13.5 cps, Current: 22, 31
+[03:34:44] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1004 chunks (0.00%), ETA: 762:20:41, Rate: 14.2 cps, Current: 24, 30
+[03:34:44] [Server thread/INFO]: Tsuyoi issued server command: /chunky progress
+[03:34:47] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1007 chunks (0.00%), ETA: 795:24:14, Rate: 13.6 cps, Current: 30, 24
+[03:34:50] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1016 chunks (0.00%), ETA: 770:02:15, Rate: 14.1 cps, Current: 30, 25
+[03:34:51] [Server thread/INFO]: Tsuyoi lost connection: Disconnected
+[03:34:51] [Server thread/INFO]: Tsuyoi left the game
+[03:34:51] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1027 chunks (0.00%), ETA: 778:18:14, Rate: 13.9 cps, Current: 30, 26
+[03:34:52] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1035 chunks (0.00%), ETA: 767:44:35, Rate: 14.1 cps, Current: 34, 3
+[03:34:53] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1041 chunks (0.00%), ETA: 708:36:11, Rate: 15.3 cps, Current: 30, 31
+[03:34:55] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1043 chunks (0.00%), ETA: 754:57:42, Rate: 14.4 cps, Current: 31, 26
+[03:34:57] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1044 chunks (0.00%), ETA: 754:51:40, Rate: 14.4 cps, Current: 31, 27
+[03:34:58] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1051 chunks (0.00%), ETA: 748:42:43, Rate: 14.5 cps, Current: 36, 5
+[03:34:59] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1060 chunks (0.00%), ETA: 739:26:54, Rate: 14.7 cps, Current: 37, 3
+[03:35:01] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1066 chunks (0.00%), ETA: 736:31:11, Rate: 14.7 cps, Current: 37, 6
+[03:35:03] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1069 chunks (0.00%), ETA: 752:27:34, Rate: 14.4 cps, Current: 36, 0
+[03:35:04] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1076 chunks (0.00%), ETA: 721:10:05, Rate: 15.1 cps, Current: 37, 7
+[03:35:05] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1080 chunks (0.00%), ETA: 743:10:45, Rate: 14.6 cps, Current: 39, 2
+[03:35:06] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1082 chunks (0.00%), ETA: 741:32:20, Rate: 14.6 cps, Current: 37, 0
+[03:35:07] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1085 chunks (0.00%), ETA: 691:22:24, Rate: 15.7 cps, Current: 41, 2
+[03:35:08] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1094 chunks (0.00%), ETA: 703:40:32, Rate: 15.4 cps, Current: 39, 0
+[03:35:10] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1109 chunks (0.00%), ETA: 715:36:54, Rate: 15.2 cps, Current: 42, 0
+[03:35:11] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1119 chunks (0.00%), ETA: 2617:58:06, Rate: 4.1 cps, Current: 41, 5
+[03:35:12] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1132 chunks (0.00%), ETA: 2444:49:48, Rate: 4.4 cps, Current: 47, 2
+[03:35:13] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1148 chunks (0.00%), ETA: 2165:09:19, Rate: 5.0 cps, Current: 47, 6
+[03:35:20] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1153 chunks (0.00%), ETA: 2320:40:41, Rate: 4.7 cps, Current: 40, 8
+[03:35:22] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1161 chunks (0.00%), ETA: 2511:40:55, Rate: 4.3 cps, Current: 43, 9
+[03:35:23] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1169 chunks (0.00%), ETA: 2520:52:04, Rate: 4.3 cps, Current: 45, 10
+[03:35:27] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1178 chunks (0.00%), ETA: 2492:54:23, Rate: 4.4 cps, Current: 44, 10
+[03:35:29] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1181 chunks (0.00%), ETA: 2642:20:54, Rate: 4.1 cps, Current: 42, 10
+[03:35:31] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1198 chunks (0.00%), ETA: 2414:46:26, Rate: 4.5 cps, Current: 42, 13
+[03:35:32] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1205 chunks (0.00%), ETA: 2308:22:49, Rate: 4.7 cps, Current: 39, 11
+[03:35:33] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1257 chunks (0.00%), ETA: 1729:20:06, Rate: 6.3 cps, Current: 39, 14
+[03:35:34] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1276 chunks (0.00%), ETA: 1598:02:41, Rate: 6.8 cps, Current: 33, 15
+[03:35:35] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1313 chunks (0.00%), ETA: 1358:49:49, Rate: 8.0 cps, Current: 38, 16
+[03:35:36] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1337 chunks (0.00%), ETA: 1246:12:47, Rate: 8.7 cps, Current: 33, 26
+[03:35:37] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1355 chunks (0.00%), ETA: 1200:27:44, Rate: 9.0 cps, Current: 34, 27
+[03:35:38] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1375 chunks (0.00%), ETA: 1159:55:55, Rate: 9.4 cps, Current: 39, 22
+[03:35:39] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1389 chunks (0.00%), ETA: 1141:32:22, Rate: 9.5 cps, Current: 37, 30
+[03:35:40] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1412 chunks (0.00%), ETA: 1088:37:34, Rate: 10.0 cps, Current: 38, 31
+[03:35:41] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1427 chunks (0.00%), ETA: 1082:24:24, Rate: 10.0 cps, Current: 42, 24
+[03:35:43] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1448 chunks (0.00%), ETA: 1069:06:49, Rate: 10.2 cps, Current: 44, 30
+[03:35:44] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1466 chunks (0.00%), ETA: 832:29:25, Rate: 13.0 cps, Current: 46, 26
+[03:35:45] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1508 chunks (0.00%), ETA: 764:54:53, Rate: 14.2 cps, Current: 43, 16
+[03:35:46] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1538 chunks (0.00%), ETA: 751:49:56, Rate: 14.4 cps, Current: 48, 17
+[03:35:47] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1546 chunks (0.00%), ETA: 764:43:12, Rate: 14.2 cps, Current: 49, 16
+[03:35:49] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1574 chunks (0.00%), ETA: 742:59:30, Rate: 14.6 cps, Current: 50, 22
+[03:35:50] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1596 chunks (0.00%), ETA: 694:42:46, Rate: 15.6 cps, Current: 48, 29
+[03:35:51] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1619 chunks (0.00%), ETA: 685:20:41, Rate: 15.8 cps, Current: 49, 30
+[03:35:52] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1645 chunks (0.00%), ETA: 647:21:15, Rate: 16.8 cps, Current: 51, 30
+[03:35:53] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1661 chunks (0.00%), ETA: 649:13:08, Rate: 16.7 cps, Current: 57, 24
+[03:35:54] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1678 chunks (0.00%), ETA: 586:11:11, Rate: 18.5 cps, Current: 58, 24
+[03:35:55] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1698 chunks (0.00%), ETA: 590:37:12, Rate: 18.4 cps, Current: 60, 27
+[03:35:56] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1721 chunks (0.00%), ETA: 588:34:23, Rate: 18.4 cps, Current: 60, 31
+[03:35:57] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1736 chunks (0.00%), ETA: 546:18:54, Rate: 19.9 cps, Current: 63, 30
+[03:35:59] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1765 chunks (0.00%), ETA: 543:36:41, Rate: 20.0 cps, Current: 61, 20
+[03:36:00] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1786 chunks (0.00%), ETA: 542:41:00, Rate: 20.0 cps, Current: 62, 18
+[03:36:01] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1795 chunks (0.00%), ETA: 540:51:00, Rate: 20.1 cps, Current: 61, 12
+[03:36:02] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1819 chunks (0.00%), ETA: 569:36:53, Rate: 19.1 cps, Current: 63, 15
+[03:36:04] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1829 chunks (0.00%), ETA: 577:07:28, Rate: 18.8 cps, Current: 59, 9
+[03:36:05] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1858 chunks (0.00%), ETA: 583:59:24, Rate: 18.6 cps, Current: 53, 14
+[03:36:06] [Server thread/INFO]: [Chunky] Task running for Gabito. Processed: 1907 chunks (0.00%), ETA: 565:11:14, Rate: 19.2 cps, Current: 52, 9
+[03:36:07] [Server thread/INFO]: Stopping server
+[03:36:07] [Server thread/INFO]: [Waypoints] Disabling Waypoints v4.5.8
+[03:36:07] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[03:36:07] [Chunky-Gabito Thread/INFO]: [Chunky] Task stopped for Gabito.
+[03:36:07] [Server thread/INFO]: Saving players
+[03:36:07] [Server thread/INFO]: Saving worlds
+[03:36:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Gabito]'/minecraft:overworld
+[03:36:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Gabito'
+[03:36:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Gabito'
+[03:36:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Gabito'
+[03:36:09] [Server thread/INFO]: [ChunkHolderManager] Saved 1331 block chunks, 913 entity chunks, 18 poi chunks in world 'Gabito' in 2.24s
+[03:36:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Gabito'
+[03:36:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Gabito'
+[03:36:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Gabito_nether]'/minecraft:the_nether
+[03:36:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Gabito_nether'
+[03:36:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Gabito_nether'
+[03:36:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Gabito_nether'
+[03:36:09] [Server thread/INFO]: [ChunkHolderManager] Saved 796 block chunks, 2 entity chunks, 0 poi chunks in world 'Gabito_nether' in 0.25s
+[03:36:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Gabito_nether'
+[03:36:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Gabito_nether'
+[03:36:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Gabito_the_end]'/minecraft:the_end
+[03:36:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Gabito_the_end'
+[03:36:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Gabito_the_end'
+[03:36:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Gabito_the_end'
+[03:36:10] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'Gabito_the_end' in 0.20s
+[03:36:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Gabito_the_end'
+[03:36:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Gabito_the_end'
+[03:36:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (Gabito): All chunks are saved
+[03:36:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:36:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:36:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:36:10] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[03:36:10] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[03:36:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[03:36:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
