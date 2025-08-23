@@ -58,3 +58,7 @@
 [18:46:54] [User Authenticator #0/INFO]: UUID of player Tsuyoi is be812d96-d762-3bbd-aedb-2a8c943d8d21
 [18:46:56] [Server thread/INFO]: Tsuyoi joined the game
 [18:46:56] [Server thread/INFO]: Tsuyoi[/10.243.0.128:51716] logged in with entity id 22 at ([Gabito]2247.148258495683, 112.5625, 1915.5063940052207)
+[19:08:40] [Server thread/INFO]: Tsuyoi issued server command: /wp setPublic h
+[19:13:12] [Server thread/INFO]: Tsuyoi was blown up by Creeper
+[19:13:14] [Craft Scheduler Thread - 5 - Waypoints/WARN]: [Waypoints] The world 'Gabito' has no translation present. Using actual name as a fallback.
+[19:16:11] [Server thread/INFO]: Tsuyoi has made the advancement [Not Today, Thank You]
