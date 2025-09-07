@@ -165,3 +165,44 @@
 [02:04:33] [Server thread/INFO]: slxster left the game
 [02:08:44] [Server thread/INFO]: Tsuyoi lost connection: Disconnected
 [02:08:44] [Server thread/INFO]: Tsuyoi left the game
+[02:27:09] [User Authenticator #3/INFO]: UUID of player Tsuyoi is be812d96-d762-3bbd-aedb-2a8c943d8d21
+[02:27:10] [Server thread/INFO]: Tsuyoi joined the game
+[02:27:10] [Server thread/INFO]: Tsuyoi[/10.243.0.128:51908] logged in with entity id 23406 at ([Gabito]2260.9563755089653, 95.0, 1990.9239502815044)
+[02:27:15] [Server thread/INFO]: Tsuyoi issued server command: /stop
+[02:27:15] [Server thread/INFO]: [Tsuyoi: Stopping the server]
+[02:27:15] [Server thread/INFO]: Stopping server
+[02:27:15] [Server thread/INFO]: [Waypoints] Disabling Waypoints v4.5.8
+[02:27:15] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[02:27:15] [Server thread/INFO]: Saving players
+[02:27:15] [Server thread/INFO]: Tsuyoi lost connection: Server closed
+[02:27:15] [Server thread/INFO]: Tsuyoi left the game
+[02:27:15] [Server thread/INFO]: Saving worlds
+[02:27:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Gabito]'/minecraft:overworld
+[02:27:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Gabito'
+[02:27:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Gabito'
+[02:27:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Gabito'
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Saved 493 block chunks, 565 entity chunks, 0 poi chunks in world 'Gabito' in 0.92s
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Gabito'
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Gabito'
+[02:27:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Gabito_nether]'/minecraft:the_nether
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Gabito_nether'
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Gabito_nether'
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Gabito_nether'
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'Gabito_nether' in 0.00s
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Gabito_nether'
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Gabito_nether'
+[02:27:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Gabito_the_end]'/minecraft:the_end
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Gabito_the_end'
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Gabito_the_end'
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Gabito_the_end'
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'Gabito_the_end' in 0.00s
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Gabito_the_end'
+[02:27:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Gabito_the_end'
+[02:27:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (Gabito): All chunks are saved
+[02:27:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:27:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:27:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:27:16] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[02:27:16] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[02:27:16] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[02:27:16] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
