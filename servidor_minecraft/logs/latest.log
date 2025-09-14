@@ -1,76 +1,91 @@
-[15:40:27] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[15:40:27] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[15:40:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:40:28] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/floodgate-spigot.jar'...
-[15:40:32] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/floodgate-spigot.jar' in 4355ms.
-[15:40:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
-[15:40:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
- - Chunky (1.4.40), Geyser-Spigot (2.8.3-SNAPSHOT), Waypoints (4.5.8), floodgate (2.2.4-SNAPSHOT (b118-40d320a))
-[15:40:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:40:41] [ServerMain/INFO]: Loaded 1407 recipes
-[15:40:41] [ServerMain/INFO]: Loaded 1520 advancements
-[15:40:41] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:40:41] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 428.4ms
-[15:40:41] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[15:40:41] [Server thread/INFO]: Loading properties
-[15:40:41] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[15:40:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:40:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:40:41] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:40:42] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:40:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:40:42] [Server thread/INFO]: Default game type: SURVIVAL
-[15:40:42] [Server thread/INFO]: Generating keypair
-[15:40:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:40:43] [Server thread/INFO]: Using epoll channel type
-[15:40:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:40:43] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[15:40:43] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loading 3 libraries... please wait
-[15:40:43] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.jar
-[15:40:43] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[15:40:43] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-reflect/2.2.0/kotlin-reflect-2.2.0.jar
-[15:40:43] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.jar
-[15:40:44] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[15:40:44] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[15:40:45] [Server thread/INFO]: [floodgate] Took 980ms to boot Floodgate
-[15:40:45] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
-[15:40:45] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[15:40:45] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[15:40:45] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
-[15:40:45] [Server thread/INFO]: [Waypoints] Loading server plugin Waypoints v4.5.8
-[15:40:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:40:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:40:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:40:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:40:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:40:46] [Server thread/INFO]: Preparing level "Gabito"
-[15:40:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:40:47] [Server thread/INFO]: Preparing spawn area: 0%
-[15:40:47] [Server thread/INFO]: Preparing spawn area: 0%
-[15:40:48] [Server thread/INFO]: Preparing spawn area: 12%
-[15:40:48] [Server thread/INFO]: Time elapsed: 1295 ms
-[15:40:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:40:48] [Server thread/INFO]: Preparing spawn area: 0%
-[15:40:48] [Server thread/INFO]: Time elapsed: 207 ms
-[15:40:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:40:48] [Server thread/INFO]: Preparing spawn area: 0%
-[15:40:48] [Server thread/INFO]: Time elapsed: 125 ms
-[15:40:48] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[15:40:49] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
-[15:40:50] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
-[15:40:50] [Server thread/INFO]: [Waypoints] Enabling Waypoints v4.5.8
-[15:40:51] [Server thread/INFO]: [spark] Starting background profiler...
-[15:40:52] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:40:52] [Server thread/INFO]: [Geyser-Spigot] 
-[15:40:52] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b921 (git-master-175794e)
-[15:40:52] [Server thread/INFO]: [Geyser-Spigot] 
-[15:40:52] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:40:56] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[15:40:56] [Server thread/INFO]: [Geyser-Spigot] Done (4.076s)! Run /geyser help for help!
-[15:40:56] [ForkJoinPool.commonPool-worker-3/WARN]: [Geyser-Spigot] Missing MC locale file: en_us
-[15:40:56] [ForkJoinPool.commonPool-worker-3/INFO]: [Geyser-Spigot] Downloading Minecraft JAR to extract required files, please wait... (this may take some time depending on the speed of your internet connection)
-[15:40:56] [Server thread/INFO]: Done preparing level "Gabito" (10.040s)
-[15:40:56] [Server thread/INFO]: Running delayed init tasks
-[15:40:56] [Server thread/INFO]: Done (29.819s)! For help, type "help"
-[15:40:56] [Craft Scheduler Thread - 3 - Waypoints/INFO]: [Waypoints] The latest version of Waypoints is used
-[15:40:57] [ForkJoinPool.commonPool-worker-3/INFO]: [Geyser-Spigot] Minecraft JAR has been successfully downloaded and loaded!
+[02:35:24] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[02:35:24] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[02:35:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:35:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[02:35:25] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Chunky (1.4.40), Geyser-Spigot (2.8.3-SNAPSHOT), ViaVersion (5.4.2), Waypoints (4.5.8), floodgate (2.2.4-SNAPSHOT (b118-40d320a))
+[02:35:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:35:34] [ServerMain/INFO]: Loaded 1407 recipes
+[02:35:34] [ServerMain/INFO]: Loaded 1520 advancements
+[02:35:34] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[02:35:34] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 409.0ms
+[02:35:34] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[02:35:34] [Server thread/INFO]: Loading properties
+[02:35:34] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[02:35:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:35:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:35:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:35:35] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[02:35:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[02:35:35] [Server thread/INFO]: Default game type: SURVIVAL
+[02:35:35] [Server thread/INFO]: Generating keypair
+[02:35:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:35:35] [Server thread/INFO]: Using epoll channel type
+[02:35:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:35:36] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[02:35:36] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loading 3 libraries... please wait
+[02:35:36] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.jar
+[02:35:36] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[02:35:36] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-reflect/2.2.0/kotlin-reflect-2.2.0.jar
+[02:35:36] [Server thread/INFO]: [SpigotLibraryLoader] [Waypoints] Loaded library /workspaces/mi_server2/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.jar
+[02:35:37] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[02:35:38] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[02:35:38] [Server thread/INFO]: [floodgate] Took 1,000ms to boot Floodgate
+[02:35:38] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[02:35:38] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[02:35:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[02:35:39] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[02:35:39] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
+[02:35:39] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[02:35:39] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[02:35:39] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[02:35:39] [Server thread/INFO]: [Waypoints] Loading server plugin Waypoints v4.5.8
+[02:35:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:35:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:35:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:35:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:35:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:35:40] [Server thread/INFO]: Preparing level "Gabito"
+[02:35:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:35:41] [Server thread/INFO]: Preparing spawn area: 0%
+[02:35:41] [Server thread/INFO]: Preparing spawn area: 2%
+[02:35:42] [Server thread/INFO]: Preparing spawn area: 28%
+[02:35:42] [Server thread/INFO]: Time elapsed: 1186 ms
+[02:35:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:35:42] [Server thread/INFO]: Preparing spawn area: 0%
+[02:35:42] [Server thread/INFO]: Time elapsed: 283 ms
+[02:35:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:35:42] [Server thread/INFO]: Preparing spawn area: 0%
+[02:35:42] [Server thread/INFO]: Time elapsed: 129 ms
+[02:35:42] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[02:35:43] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[02:35:43] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[02:35:43] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[02:35:43] [Server thread/WARN]: [ViaVersion] ViaVersion only supports newer client versions. Use ViaBackwards to allow older versions (ViaRewind for 1.7/1.8) to join.
+[02:35:43] [Server thread/WARN]: [ViaVersion] Get setup help at https://viaversion.com/setup or download ViaBackwards/ViaRewind directly at https://ci.viaversion.com/
+[02:35:43] [Server thread/WARN]: [ViaVersion] Need more help? Join our Discord at https://viaversion.com/discord
+[02:35:43] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
+[02:35:45] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[02:35:45] [Server thread/INFO]: [Waypoints] Enabling Waypoints v4.5.8
+[02:35:46] [Server thread/INFO]: [spark] Starting background profiler...
+[02:35:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[02:35:47] [Server thread/INFO]: [Geyser-Spigot] 
+[02:35:47] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b921 (git-master-175794e)
+[02:35:47] [Server thread/INFO]: [Geyser-Spigot] 
+[02:35:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[02:35:50] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[02:35:50] [Server thread/INFO]: [Geyser-Spigot] Done (3.499s)! Run /geyser help for help!
+[02:35:50] [Server thread/INFO]: Done preparing level "Gabito" (10.237s)
+[02:35:50] [Server thread/INFO]: Running delayed init tasks
+[02:35:51] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[02:35:51] [Server thread/INFO]: Done (27.247s)! For help, type "help"
+[02:35:51] [Craft Scheduler Thread - 1 - Waypoints/INFO]: [Waypoints] The latest version of Waypoints is used
+[02:37:12] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username Tsuyoi6505
+[02:37:12] [localSession-7-2/INFO]: [Geyser-Spigot] Tsuyoi6505 (logged in as: Tsuyoi6505) has connected to the Java server
+[02:37:13] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Tsuyoi6505 joined (UUID: 00000000-0000-0000-0009-01fae1dd61e5)
+[02:37:13] [Server thread/INFO]: .Tsuyoi6505 joined the game
+[02:37:13] [Server thread/INFO]: .Tsuyoi6505[/10.243.42.70:0] logged in with entity id 29 at ([Gabito]10.5, 93.0, 6.5)
+[02:45:07] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Tsuyoi6505 has disconnected from the Java server because of Bedrock client disconnected
+[02:45:07] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Tsuyoi6505 disconnected
+[02:45:07] [Server thread/INFO]: .Tsuyoi6505 lost connection: Disconnected
+[02:45:07] [Server thread/INFO]: .Tsuyoi6505 left the game
